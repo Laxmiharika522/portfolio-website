@@ -435,7 +435,9 @@
 
             <!-- Right Side: 3D Image -->
             <div class="contact-image-side reveal-right">
-                <div id="globe-container" class="globe-container" style="min-height: 400px; display: flex; align-items: center; justify-content: center;">
+                <div id="globe-container" class="globe-container" style="min-height: 400px; display: flex; align-items: center; justify-content: center; position: relative;">
+                    <!-- Fallback image if WebGL fails -->
+                    <img src="assets/globe.jpg" id="globe-fallback" alt="Globe" style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; box-shadow: 0 0 40px rgba(0,242,254,0.4); border: 5px solid rgba(10, 10, 10, 0.8);">
                     <!-- Three.js globe will be rendered here -->
                 </div>
             </div>

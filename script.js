@@ -325,6 +325,10 @@ document.addEventListener('DOMContentLoaded', () => {
     renderer.setSize(width, height);
     renderer.setPixelRatio(window.devicePixelRatio);
     container.appendChild(renderer.domElement);
+    
+    // Hide fallback image since WebGL is working
+    const fallback = document.getElementById('globe-fallback');
+    if (fallback) fallback.style.display = 'none';
 
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
     camera.position.z = 7.5; // Increased to make the globe appear slightly smaller
