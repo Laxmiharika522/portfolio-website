@@ -1127,6 +1127,13 @@ ul {
     .skills-grid {
         grid-template-columns: 1fr;
     }
+    .projects-tabs {
+        justify-content: flex-start;
+        padding: 0 1rem 1rem 1rem;
+    }
+    .project-tab {
+        width: 160px; /* Slightly smaller tabs on phone to see more */
+    }
     .container {
         padding: 0 1rem;
     }

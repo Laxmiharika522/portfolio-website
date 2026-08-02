@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Create the main sphere (Textured Earth)
     const textureLoader = new THREE.TextureLoader();
-    const earthMap = textureLoader.load('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg');
+    const earthMap = textureLoader.load('assets/globe.jpg');
     
     const geometry = new THREE.SphereGeometry(2, 64, 64);
     const material = new THREE.MeshPhongMaterial({
