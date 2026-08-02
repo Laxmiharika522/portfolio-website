@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "AI Code Review Assistant",
             desc: "AI-powered automated pull request review platform",
-            image: "proj_ai_new_1785615411490.png", 
+            image: "assets/proj_ai_new_1785615411490.png", 
             bullets: [
                 "Developed an AI-powered code review platform integrating Gemini LLM and GitHub API to analyze commits, generate contextual feedback, and automate pull request review workflows.",
                 "Engineered an asynchronous FastAPI backend with secure Supabase authentication and a responsive React dashboard for scalable multi-repository management and AI-driven code diff visualization."
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "InventoryPro",
             desc: "Database-driven retail inventory and transaction management platform",
-            image: "proj_inv_orange_1785613680161.png",
+            image: "assets/proj_inv_orange_1785613680161.png",
             bullets: [
                 "Built a real-time inventory and sales management platform supporting stock tracking, supplier management, and transaction processing across multiple operational modules.",
                 "Implemented ACID-compliant transaction workflows, idempotent billing APIs, and optimized relational database queries to ensure concurrent data consistency and faster reporting."
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Magpie Books",
             desc: "Full-stack library management and digital borrowing platform",
-            image: "proj_magpie_gold_1785613693888.png",
+            image: "assets/proj_magpie_gold_1785613693888.png",
             bullets: [
                 "Developed a full-stack digital library platform enabling catalog search, online book borrowing, and centralized administrative inventory management.",
                 "Integrated the Open Library API with scalable relational schemas and RESTful APIs to automate metadata synchronization and efficiently manage rental histories and user operations."
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Space News NLP",
             desc: "Large-scale NLP pipeline for space industry news analytics",
-            image: "proj_space_white_1785614038744.png",
+            image: "assets/proj_space_white_1785614038744.png",
             bullets: [
                 "Built an NLP pipeline processing 20,000+ space industry news articles using sentiment analysis, topic modeling, and named entity recognition to uncover industry trends and thematic insights.",
                 "Applied VADER sentiment analysis, LDA topic modeling, and spaCy NER to transform unstructured text into actionable data visualizations for market research."
